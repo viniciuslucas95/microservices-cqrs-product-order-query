@@ -12,8 +12,8 @@ export default class Registry implements IRegistry {
 
   constructor(
     apiPort = 3002,
-    databaseHost = 'localhost',
-    databasePort = 5435,
+    databaseHost = 'postgres-product-order-query',
+    databasePort = 5432,
     databaseUsername = 'admin',
     databasePassword = 'admin',
     databaseName = 'dev',
